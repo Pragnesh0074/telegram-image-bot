@@ -1,9 +1,0 @@
-run = "python deploy_replit.py"
-entrypoint = "deploy_replit.py"
-
-[nix]
-channel = "stable-22_11"
-
-[deployment]
-run = ["sh", "-c", "python deploy_replit.py"]
-deploymentTarget = "cloudrun" 
